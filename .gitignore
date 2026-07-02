@@ -1,0 +1,8 @@
+.env
+node_modules/
+recordings/
+outputs/
+.DS_Store
+*.log
+
+.Rhistory

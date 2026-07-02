@@ -1,0 +1,19 @@
+{
+  "name": "mac-recording-script-generator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Record audio with macOS QuickTime Player, transcribe it with OpenAI, and generate a polished script.",
+  "bin": {
+    "translator-recorder": "./src/index.js"
+  },
+  "scripts": {
+    "check": "node src/index.js check",
+    "record": "node src/index.js record",
+    "from-file": "node src/index.js from-file",
+    "help": "node src/index.js --help"
+  },
+  "engines": {
+    "node": ">=18.17"
+  }
+}
